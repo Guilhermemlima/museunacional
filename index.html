@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Museu Nacional</title>
+    <meta charset="utf-8">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div id="container"> <!-- inicio container -->
+
+        <header> <!-- inicio header -->
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+
+            <nav> <!-- inicio nav -->
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="#exposicoes">EXPOSIÇÕES</a></li>
+                    <li><a href="">PESQUISA</a></li>
+                    <li><a href="">ACERVO</a></li>
+                    <li><a href="https://www.youtube.com/embed/mxxHtTv9UhY?si=QMBkdGue7UhCUn8t">VÍDEOS</a></li>
+                    <li><a href="#galeria">FOTOS</a></li>
+                    <li><a href="">CONTATO</a></li>
+                </ul>
+            </nav>
+            <!-- fim nav -->
+        </header>
+        <!-- fim header -->
+
+        <!-- inicio pricipal-->
+        <div id="principal">
+            <!-- inicio conteudo-->
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="museu.png">
+                </section>
+
+                <section id="postagens">
+                    <article id="video">
+                        <h3>vídeo: conheça o museu</h3>
+                        <iframe width="340" height="170"
+                            src="https://www.youtube.com/embed/mxxHtTv9UhY?si=QMBkdGue7UhCUn8t"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa: Encontre o museu</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2970.7720799295075!2d-51.4676311!3d-25.3931237!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ef3631d54cb01d%3A0x34de2583f7cc8ede!2sMuseu%20Visconde%20de%20Guarapuava!5e1!3m2!1spt-BR!2sbr!4v1723847437990!5m2!1spt-BR!2sbr"
+                            width="340" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li><a href="">Os assustadores insetos</a></li>
+                            <li><a href="">O crânio de luzia, a mulher mais antiga do Brasil</a></li>
+                            <li><a href="">Preguiça gigante e tigra-dentes-de-sabre</a></li>
+                            <li><a href="">Plantas do Brasil Central</a></li>
+                            <li><a href="">Teresa Cristina: A Imperatriz Arqueóloga</a></li>
+                            <li><a href="">Arte com Dinossauros - Paleoarte</a></li>
+                            <li><a href=""><strong>Veja todos (65)</strong></a></li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de hstória</h3>
+                        <p>Numa ponta que avançava sobre o mar, posteriormente conhecida como Ponta do Calabouço, entre
+                            as praias de Piaçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os portugueses
+                            construíram em 1603 a Fortaleza de Santiago, origrm do conjunto arquitetônico que hoje
+                            abriga o Museu Histórico Nacional.</p>
+                        <a href="">
+                            <<strong>Leia mais</strong>
+                        </a>
+                    </article>
+                </section>
+            </div>
+            <!-- fim de conteudo -->
+
+            <!-- inicio aside -->
+            <aside> 
+                <section>
+                    <img src="depoimento.png">
+                </section>
+
+                <!-- inicio seção visita-->
+                <section id="visita"> 
+                    <form>
+                        <h4>Faça uma visita</h4>
+                        <filedset>
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input class="campo" type="date" id="date" value="">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" style="width: 30px;" type="number" id="qtd" value="1">
+
+                        </filedset>
+
+                        <input class="botao" type="submit" value="verficar dispolibilidade">
+                    </form>
+                </section>
+                <!-- fim da seção visita -->
+
+                <!-- inicio seção galeria -->
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+
+                    <a href="">
+                        <img src="imagem1.jpg" height="93" width="93" alt="">
+                    </a>
+                    <a href="">
+                        <img src="imagem2.jpg" height="93" width="93" alt="">
+                    </a>
+                    <a href="">
+                        <img src="imagem3.jpg" height="93" width="93" alt="">
+                    </a>
+                    <a href="">
+                        <img src="imagem4.jpg" height="93" width="93" alt="">
+                    </a>
+
+                </section>
+                <!-- fim da galeria -->
+            </aside>
+            <!-- fim aside -->
+            <footer>
+                <a href="https://guarapuava.camporeal.edu.br/"><img src="centro-universistário.png" alt="" width="130" height="50"></a>
+                <p>
+                    <a href="">home</a>
+                    <a href="">exposições</a>
+                    <a href="">pesquisa</a>
+                    <a href="">acervo</a>
+                    <a href="">vídeos</a>
+                    <a href="">fotos</a>
+                    <a href="">contato</a>
+                </p>
+                <p>
+                    2024 <a href+="">Museu Nacional</a> - Todos os direitos reservados.
+                </p>
+            </footer>
+        </div>
+        <!-- fim principal -->
+
+    </div> 
+    <!--Fim container-->
+</body>
+
+</html>
